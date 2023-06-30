@@ -1,8 +1,8 @@
-1-Write a JavaScript program to display the current day and time in the following format.
-Today is : wednesday.
-Current time is : 10 PM : 30 : 38
+// 1-Write a JavaScript program to display the current day and time in the following format.
+// Today is : wednesday.
+// Current time is : 10 PM : 30 : 38
 
-solution:-
+// solution:-
 
 function GetDAy(){
     const days=["Monday","Tuesday","Wednesday","Thrusday","Friday","Saturday","Sunnday"];
@@ -25,17 +25,17 @@ function GetDAy(){
 
 
 
-======================================
+// ======================================
 
 
 
 
 
-2-.Write a JavaScript program to get the current date.
-Expected Output :
-mm-dd-yyyy, mm/dd/yyyy 
+// 2-.Write a JavaScript program to get the current date.
+// Expected Output :
+// mm-dd-yyyy, mm/dd/yyyy 
 
-solution:-
+// solution:-
 
 function GETDATE(){
     const d=new Date();
@@ -48,13 +48,13 @@ function GETDATE(){
 
 
 
-======================================
+// ======================================
 
 
 
-3-WAP to print area and perimeter of rectangle , taking input from the user , using prompt.
+// 3-WAP to print area and perimeter of rectangle , taking input from the user , using prompt.
 
-solution:-
+// solution:-
 
 function Area(){
     var len=prompt("enter the length");
@@ -64,18 +64,18 @@ function Area(){
 }
 
 
-======================================
+// ======================================
 
 
 
 
-4-WAP to rotate the string ‘brainmentors in the right direction. This is done by periodically removing one letter from the string end and attaching it to the front.
+// 4-WAP to rotate the string ‘brainmentors in the right direction. This is done by periodically removing one letter from the string end and attaching it to the front.
 
-input  = brainmentors
+// input  = brainmentors
 
-output = sbrainmentor
+// output = sbrainmentor
 
-solution:-
+// solution:-
 
 
 function rotate(){
@@ -92,16 +92,16 @@ function rotate(){
 }
 
 
-======================================
+// ======================================
 
 
 
 
-5-WAP to find out if 1st January will be a Sunday between 2000 and 2030
+// 5-WAP to find out if 1st January will be a Sunday between 2000 and 2030
 
 
 
-solution:-
+// solution:-
 
 
 unction FirstSunday() {
@@ -113,4 +113,4 @@ unction FirstSunday() {
 }
 }
 
-=======================================
+// =======================================
