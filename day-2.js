@@ -1,12 +1,12 @@
-1-Write a JavaScript function that Print Sum of Even Place and Odd Place Digit
+// 1-Write a JavaScript function that Print Sum of Even Place and Odd Place Digit
 
-E.g num = 2914
-O/p Even Place (9+4)
-Odd Place 2+1
+// E.g num = 2914
+// O/p Even Place (9+4)
+// Odd Place 2+1
 
 
 
-solution:-
+// solution:-
 
 
   
@@ -36,18 +36,18 @@ output:
 3
 
 
-===================================================================================================================
+// ===================================================================================================================
 
 
 
-2-Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word into upper case.
-Example string : ‘learn javascript from brain mentors’
-Expected Output : ‘Learn Javascript From Brain Mentors
+// 2-Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word into upper case.
+// Example string : ‘learn javascript from brain mentors’
+// Expected Output : ‘Learn Javascript From Brain Mentors
 
 
 
   
-solution:-
+// solution:-
 
 
 
@@ -77,17 +77,17 @@ function rotate(x)
 
 
 
-=============================================================================================================
+// =============================================================================================================
 
 
 
 
 
-3-Write a JS Function to validate Phone Number 
-Only number and must be 10 digit long
+// 3-Write a JS Function to validate Phone Number 
+// Only number and must be 10 digit long
 
 
-soulution:-
+// soulution:-
 
 
 function validate(num)
@@ -108,14 +108,14 @@ valid number
 validate(98298398);
 not  valid
 
- ========================================================================================================================= 
+//  ========================================================================================================================= 
 
-4-Write a JS Function to validate Email Address
-Must contains @
-Must ends with .com/.org/.edu
+// 4-Write a JS Function to validate Email Address
+// Must contains @
+// Must ends with .com/.org/.edu
 
 
-soution:-
+// soution:-
 
 function validateEmail(email)
 {
@@ -132,18 +132,18 @@ function validateEmail(email)
 
 
 
-============================================================================================================
+// ============================================================================================================
 
 
-Write a JS Function to find the occurrence of each character in JS
-Input : “brain mentors”
-O/P : b 1
-r 2
-A 1
-I 1
-N 2
-M 1
-E 1
-T 1
-O 1
-S 1
+// Write a JS Function to find the occurrence of each character in JS
+// Input : “brain mentors”
+// O/P : b 1
+// r 2
+// A 1
+// I 1
+// N 2
+// M 1
+// E 1
+// // T 1
+// O 1
+// S 1
