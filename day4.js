@@ -152,6 +152,31 @@ rotate(a,2);
 
 // output = [1,4,7]
 
+function performIntersection(arr1, arr2) {
+
+    // converting into Set
+    const setA = [...new Set(arr1)];
+    const setB = [...new Set(arr2)];
+
+    var result = [];
+
+    for (ele of setB) {
+    
+        if (setA.includes(ele)) {
+            result.push(ele);
+        }
+        
+    }
+    
+    return result;
+
+}
+
+var arr1 = [2, 4, 1, 7, 4, 2];
+var arr2 = [5, 1, 4, 7, 3, 7, 7, 1];
+performIntersection(arr1, arr2)
+(3) [1, 4, 7]
+
 // 10.Write a function to remove duplicate elements from an array while preserving the original order.
 // 	ex:- arr = [1,2,5,2,5,1,6,7,7]
 
